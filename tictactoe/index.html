@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Tic Tac Toe</title>
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="move">
+                <span id="choose" class="choose">Choose your figure</span> <br /><br />
+                <button id="btnX" class="btnPlayer btnPlayerHover">X</button>
+                <button id="btnO" class="btnPlayer btnPlayerHover">O</button>
+            </div>
+            <div class="hide" id="playBoard">
+                <button id="btnTurn" class="turn"></button>
+                <table id="tblPlay">
+                    <tr>
+                        <td id="tic1"></td>
+                        <td id="tic2"></td>
+                        <td id="tic3"></td>
+                    </tr>
+                    <tr>
+                        <td id="tic4"></td>
+                        <td id="tic5"></td>
+                        <td id="tic6"></td>
+                    </tr>
+                    <tr>
+                        <td id="tic7"></td>
+                        <td id="tic8"></td>
+                        <td id="tic9"></td>
+                    </tr>
+                </table>
+                <button class="btnRestart" id="btnRestart">
+                    Restart Game
+                </button>
+            </div>
+        </div>
+
+        <script src="jquery-3.4.1.min.js"></script>
+        <script src="script.js"></script>
+        <script src="model.js"></script>
+    </body>
+</html>
