@@ -1,7 +1,7 @@
 # Tic Tac Toe 
-Author: Hans Stefanus Adinata (hansstefanus@gmail.com)
-Title: Tic Tac Toe Web Based Application
-Technology: HTML, CSS, Javascript, JQuery
+* Author: Hans Stefanus Adinata (hansstefanus@gmail.com)
+* Title: Tic Tac Toe Web Based Application
+* Technology: HTML, CSS, Javascript, JQuery
 
 # Instruction
 --------------
